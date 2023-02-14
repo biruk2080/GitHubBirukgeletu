@@ -9,6 +9,7 @@ public:
 
 private:
 int num; 
+int size;
 
 };
 
