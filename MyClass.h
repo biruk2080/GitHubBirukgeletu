@@ -8,6 +8,7 @@ public:
     ~MyClass();
 
 private:
+int num; 
 
 };
 
