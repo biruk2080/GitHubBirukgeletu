@@ -6,6 +6,8 @@ class MyClass
 public:
     MyClass();
     ~MyClass();
+    int num();
+    int size(); 
 
 private:
 int num; 
