@@ -38,7 +38,7 @@ private:
    int numberOfBooks;
    // a private method that return the index of a book if the book is exist or return -1 if not. 
    int findBook(const string& name) const;
-   
+   // a array store the all books 
    string books[MAX]; 
 };
 #endif

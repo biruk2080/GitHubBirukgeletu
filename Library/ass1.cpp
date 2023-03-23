@@ -30,18 +30,18 @@ void Test1()
     assert(!result);
     cout << libs << endl; 
 }
-// void Test2()
-// {
-//     cout << "+++ Test3 ++++++  edge cases" <<endl;
-//     Library lib2("BigLibrary" );
-//     for (int i = 0; i < 105; i++)
-//     {
-//         std::string bookName = "book";
+void Test2()
+{
+    cout << "+++ Test3 ++++++  edge cases" <<endl;
+    Library lib2("BigLibrary" );
+    for (int i = 0; i < 105; i++)
+    {
+        std::string bookName = "book";
 
-//         lib2.AddBook(bookName);
-//     }
+        lib2.AddBook(bookName);
+    }
 
-// }
+}
 void TestAll()
 {
     Test1();
